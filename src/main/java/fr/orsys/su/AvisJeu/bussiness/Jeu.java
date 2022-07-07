@@ -25,7 +25,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class Jeu<Plateforme> {
+
+public class Jeu {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
