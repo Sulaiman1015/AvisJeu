@@ -1,5 +1,6 @@
 package fr.orsys.su.AvisJeu.bussiness;
 
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -27,7 +28,6 @@ import lombok.ToString;
 
 
 public class Jeu {
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -58,3 +58,4 @@ public class Jeu {
     @OneToMany(mappedBy = "jeu") // mweeeeeu avis<> jeu
     private Avis avis;
 }
+

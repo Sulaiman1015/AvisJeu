@@ -31,4 +31,3 @@ public class Plateforme {
     @ManyToMany
     List<Jeu> jeu;
 }
-

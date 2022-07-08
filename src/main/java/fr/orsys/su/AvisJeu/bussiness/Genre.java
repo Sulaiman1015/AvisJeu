@@ -30,4 +30,6 @@ public class Genre {
 
     @OneToMany(mappedBy = "genre")
     List<Jeu> jeu;
+
 }
+
